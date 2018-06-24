@@ -1,11 +1,11 @@
-package zhi.yest.integrationexample
+package zhi.yest
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class IntegrationExampleApplication
+class Producer
 
 fun main(args: Array<String>) {
-    runApplication<IntegrationExampleApplication>(*args)
+    runApplication<Producer>(*args)
 }
